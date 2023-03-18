@@ -4,6 +4,7 @@
 <b>~03-html.homework-https://dreamy-crepe-531a82.netlify.app</b><br>
 <b>~04.HtmlFormTable-https://peppy-clafoutis-544b4e.netlify.app</b> <br>
 <b>~05-FirstHtmlFullSite-https://dashing-bublanina-fe6edf.netlify.app</b><br>
+<b>~06-htmltas-https://statuesque-jelly-3bb65b.netlify.app</b><br>
 <b>~07.Css_backround-https://aquamarine-seahorse-49c753.netlify.app</b><br>
 <b>~08-Css box-model/immadity-https://splendid-salmiakki-6c95d6.netlify.app</b><br>
 <b>~09.Css-Grid-Media/CSS-Grid-https://elaborate-yeot-afce59.netlify.app</b><br>
