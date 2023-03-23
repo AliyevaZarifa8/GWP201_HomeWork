@@ -11,8 +11,17 @@
   margin: 0 auto;
 }
 header {
+  width: 100%;
+  height: 10vh;
   padding: 20px 0;
   background-color: bisque;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+#hero-banner {
+  margin-top: 10vh;
 }
 .header1 {
   display: flex;
@@ -98,6 +107,10 @@ header {
   bottom: 15px;
   left: -15px;
 }
+.menyu-icon {
+  display: none;
+}
+
 #top {
   background-color: white;
   height: 50vh;
@@ -170,40 +183,104 @@ header {
 .four a i:hover {
   color: whitesmoke;
 }
-.hed1,
-.hed2,
-.hed3 {
+.hed1 h1,
+.hed2 h1,
+.hed3 h1 {
+  border: none;
+  border-bottom: 5px solid orange;
+  max-width: 50px;
+  margin: 25px auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.three h1::after {
-  content: "          ";
-  display: inline-block;
-  width: 40px;
-  border: 3px solid orange;
+.hed1 h1:hover,
+.hed2 h1:hover,
+.hed3 h1:hover {
+  border-bottom: 5px solid #fff;
 }
-.three h1::after:hover {
-  color: white;
-}
+
 .three a {
   font-size: 30px;
+}
+.three a i:hover {
+  color: #fff;
 }
 #servis {
   font-size: 50px;
   text-align: center;
   margin-top: 20px;
 }
+.first,
+.two,
+.four {
+  width: 33.3333%;
+}
 
-@media only screen and (max-width: 992px) {
-  .hero-banner {
-    flex-direction: column;
+.text,
+.hero-banner-info {
+  width: 50%;
+}
+
+@media only screen and (max-width: 991px) {
+  #basliq {
+    height: 100vh;
   }
-  .general {
-    flex-direction: column;
+  #top {
+    height: 100vh;
+    padding-top: 20px;
   }
   .three {
+    display: flex;
     flex-direction: column;
+    row-gap: 30px;
+  }
+  .first,
+  .two,
+  .four {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header,
+  #basliq {
+    width: 100%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  .menyu-icon {
+    display: block;
+  }
+  .hero-banner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    height: 80vh;
+  }
+  .hero-banner-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .general {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  #top {
+    height: 100%;
+  }
+  .text {
+    margin-left: 50px;
+    width: 80%;
+  }
+  .image-border {
+    margin: 50px auto;
+  }
+  #basliq {
+    margin-top: 300px;
   }
 }
