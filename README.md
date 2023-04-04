@@ -13,3 +13,4 @@
 <b>~10-PortfolioMiniWebPage-https://sparkling-salamander-bc8fb9.netlify.app</b><br>
 <b>~11-ResponsiveTwoSection-https://tourmaline-moxie-52ecfe.netlify.app</b><br>
 <b>~13-Css_AnimationTransform-https://strong-tartufo-185991.netlify.app</b><br>
+<b>~14-SCSS_QuicqlyLandingPage-https://super-churros-200e8e.netlify.app/</b><br>
