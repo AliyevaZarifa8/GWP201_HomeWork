@@ -20,7 +20,7 @@ header {
       justify-content: space-around;
       align-items: center;
       column-gap: 32px;
-      padding-top:15px ;
+      padding-top: 15px;
 
       li {
         a {
@@ -31,8 +31,8 @@ header {
       }
     }
     div {
-        display: flex;
-        column-gap:12px;
+      display: flex;
+      column-gap: 12px;
       .sign-up {
         color: #20484f;
         font-size: 14px;
@@ -48,6 +48,24 @@ header {
         border: none;
         background-color: transparent;
         color: #ffffff;
+      }
+    }
+    #menu {
+      display: none;
+      color: gray;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    nav {
+      ul {
+        display: none;
+      }
+      div {
+        display: none;
+      }
+      #menu {
+        display: block;
       }
     }
   }

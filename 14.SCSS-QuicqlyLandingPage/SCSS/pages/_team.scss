@@ -1,16 +1,39 @@
 #team {
   width: 100%;
   height: 100vh;
+  margin-top: 0;
 
   .zarifa {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
+    height: 70vh;
 
     .text {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
+      h2 {
+        width: 570px;
+        height: 50px;
+        color: #072125;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+      p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        width: 495px;
+        height: 48px;
+        color: #072125;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+      }
     }
     .general {
       display: flex;
@@ -21,8 +44,10 @@
       .first {
         display: flex;
         flex-direction: column;
-        row-gap: 17px;
+
         h4 {
+          margin-top: 16px;
+          margin-bottom: 8px;
           font-family: "Plus Jakarta Sans", sans-serif;
           color: #072125;
           font-weight: 700;
@@ -43,6 +68,23 @@
           a {
             color: #072125;
           }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 100%;
+    .zarifa {
+      height: 100%;
+      margin-top: 7%;
+      .text {
+        h2 {
+          width: 100%;
+          margin-bottom: 10%;
+        }
+        p {
+          width: 90%;
         }
       }
     }
