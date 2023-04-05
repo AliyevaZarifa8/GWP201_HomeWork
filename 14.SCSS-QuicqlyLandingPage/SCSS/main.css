@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -485,6 +489,7 @@ header nav #menu {
          column-gap: 43px;
     width: 100%;
     flex-direction: column;
+    height: 100%;
   }
   #footer .foot-start .left {
     width: 100%;

@@ -58,9 +58,6 @@
           }
         }
         .dotty {
-          // display: flex;
-          // justify-content: center;
-          // align-items: center;
           margin-left: 3px;
         }
       }
@@ -118,6 +115,7 @@
       column-gap: 43px;
       width: 100%;
       flex-direction: column;
+      height: 100%;
       .left {
         width: 100%;
         justify-content: center;
