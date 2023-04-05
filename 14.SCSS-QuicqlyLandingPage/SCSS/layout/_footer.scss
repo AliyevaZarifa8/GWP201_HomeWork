@@ -111,7 +111,9 @@
   }
   @media only screen and (max-width: 992px) {
     height: 100%;
-    margin-top: 60px4 .foot-start {
+    margin-top: 60px;
+
+    .foot-start {
       column-gap: 43px;
       width: 100%;
       flex-direction: column;
