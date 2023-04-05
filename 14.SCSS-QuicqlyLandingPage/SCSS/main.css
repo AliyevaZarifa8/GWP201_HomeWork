@@ -433,6 +433,9 @@ header nav #menu {
 #footer .foot-start .left .ckbfirst .comma .ckend .flex {
   display: flex;
 }
+#footer .foot-start .left .ckbfirst .dotty {
+  margin-left: 3px;
+}
 #footer .foot-start .right {
   padding-top: 7%;
   width: 50%;
