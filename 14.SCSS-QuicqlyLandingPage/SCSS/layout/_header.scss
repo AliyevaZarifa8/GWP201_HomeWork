@@ -55,6 +55,20 @@ header {
       color: gray;
     }
   }
+  @media only screen and (max-width: 992px) {
+    nav {
+      ul {
+        justify-content: space-evenly;
+        margin-right: 7px;
+
+        li {
+          a {
+            width: 5%;
+          }
+        }
+      }
+    }
+  }
 
   @media only screen and (max-width: 768px) {
     nav {
