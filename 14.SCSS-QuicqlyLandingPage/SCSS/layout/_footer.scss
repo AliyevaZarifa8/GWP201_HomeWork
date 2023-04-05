@@ -1,7 +1,7 @@
 #footer {
   width: 100%;
-  height: 100vh;
-  margin-top: 60px;
+  height: 100%;
+  margin-top: 500px;
 
   .foot-start {
     width: 100%;
@@ -111,7 +111,7 @@
   }
   @media only screen and (max-width: 992px) {
     height: 100%;
-    .foot-start {
+    margin-top: 60px4 .foot-start {
       column-gap: 43px;
       width: 100%;
       flex-direction: column;
@@ -143,6 +143,7 @@
   }
 
   @media only screen and (max-width: 768px) {
+    margin-top: 60px;
     .foot-start {
       padding-top: 5%;
       height: 100%;
